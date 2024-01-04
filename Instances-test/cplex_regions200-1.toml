@@ -7,7 +7,7 @@ inst_feat_dict = "target_algorithms/surrogate/cplex_regions200/inst_feat_dict.cp
 [irace_args]
 parameter_file = "target_instances/surrogate/cplex_regions200/config_space.cplex_regions200.par10.random.irace.txt"
 train_instances_file = "target_instances/surrogate/cplex_regions200/train-1.txt"
-test_instances_file = "target_instances/surrogate/cplex_regions200/test-1.txt"
+test_instances_file = "target_instances/surrogate/cplex_regions200/validation-1.txt"
 digits = 10
 max_time = 172800
 bound_max = 10000

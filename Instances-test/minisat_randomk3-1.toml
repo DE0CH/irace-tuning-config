@@ -7,7 +7,7 @@ inst_feat_dict = "target_algorithms/surrogate/minisat_randomk3/inst_feat_dict.mi
 [irace_args]
 parameter_file = "target_instances/surrogate/minisat_randomk3/config_space.minisat_randomk3.par10.random.irace.txt"
 train_instances_file = "target_instances/surrogate/minisat_randomk3/train-1.txt"
-test_instances_file = "target_instances/surrogate/minisat_randomk3/test-1.txt"
+test_instances_file = "target_instances/surrogate/minisat_randomk3/validation-1.txt"
 digits = 10
 max_time = 172800
 bound_max = 300
