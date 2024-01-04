@@ -9,4 +9,4 @@ IRACE_TUNING_RUN_DIR=runs/cplex-and-minisat $(Rscript -e "cat(system.file(packag
     --target-runner ${IRACE_TUNING_TARGET_RUNNER:-../irace-tuning3/target-runner.py} \
     --parameter-file jobs/parameters.txt \
     --max-experiments 5000 --seed 123 \
-    --parallel $(nproc --all)
+    --parallel ${IRACE_TUNING_NCPU:-$(nproc --all)}
