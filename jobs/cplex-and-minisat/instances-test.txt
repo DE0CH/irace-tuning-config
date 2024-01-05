@@ -1,2 +1,2 @@
 cplex_regions200-1.toml
-minsat_randomk3-1.toml
+minisat_randomk3-1.toml
