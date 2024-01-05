@@ -9,4 +9,5 @@ IRACE_TUNING_RUN_DIR=runs/just-cplex $(Rscript -e "cat(system.file(package='irac
     --target-runner ${IRACE_TUNING_TARGET_RUNNER:-../irace-tuning3/target-runner.py} \
     --parameter-file jobs/parameters.txt \
     --max-experiments 3000 --seed 123 \
-    --parallel ${IRACE_TUNING_NCPU:-$(nproc --all)}
+    --parallel ${IRACE_TUNING_NCPU:-1} \
+    --debug-level 5

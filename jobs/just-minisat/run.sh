@@ -10,3 +10,4 @@ IRACE_TUNING_RUN_DIR=runs/just-minisat $(Rscript -e "cat(system.file(package='ir
     --parameter-file jobs/parameters.txt \
     --max-experiments 3000 --seed 123 \
     --parallel ${IRACE_TUNING_NCPU:-1} \
+    --debug-level 5 \
