@@ -1,5 +1,5 @@
-capping "--capping " i (0, 1) | (elitist == 1)
+capping "--capping " i (0, 1)
 cappingType "--capping-type " c (median, mean, worst, best) | (capping == 1)
 boundType "--bound-type " c (candidate, instance) | (capping == 1)
 testType "--test-type " c (f-test, t-test)
-elitist "--elitist " i (0, 1)
+elitiestLimit "--elitist-limit " i (1, 10)
