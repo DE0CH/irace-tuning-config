@@ -1,0 +1,13 @@
+[surrogate_args]
+pyrfr_wrapper = "target_algorithms/surrogate/cplex_rcw/pyrfr_wrapper.cplex_rcw.par10.random.pkl"
+pyrfr_model = "target_algorithms/surrogate/cplex_rcw/pyrfr_model.cplex_rcw.par10.random.bin"
+config_space = "target_algorithms/surrogate/cplex_rcw/config_space.cplex_rcw.par10.random.pcs"
+inst_feat_dict = "target_algorithms/surrogate/cplex_rcw/inst_feat_dict.cplex_rcw.par10.random.json"
+
+[irace_args]
+parameter_file = "target_instances/surrogate/cplex_rcw/config_space.cplex_rcw.par10.random.irace.txt"
+train_instances_file = "target_instances/surrogate/cplex_rcw/train-1.txt"
+test_instances_file = "target_instances/surrogate/cplex_rcw/validation-1.txt"
+digits = 10
+max_time = 172800
+bound_max = 10000
