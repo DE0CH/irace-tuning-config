@@ -19,3 +19,28 @@ IRACE_TUNING_RUN_DIR="${IRACE_TUNING_RUN_DIR}/train" irace \
     --parallel ${IRACE_TUNING_NCPU:-1} \
     | tee "${IRACE_TUNING_RUN_DIR}/train/irace-log.log"
 
+mkdir -p "${IRACE_TUNING_RUN_DIR}/test/train"
+"${IRACE_TUNING_PATH}`/tools/generate_validation_commands.py" \
+    --test-instances-dir "$Instances" \
+    --test-instances-file "$jobs/cplex_rcw/instances.txt" \
+    --target-runner "$${IRACE_TUNING_PATH}/target-runner.py" \
+    --n-seed 30 \
+    --log-file "$${IRACE_TUNING_RUN_DIR}/train/irace-log.log" \
+    | tee "{IRACE_TUNING_RUN_DIR}/test/train/test-commands.txt" \
+    | IRACE_TUNING_RUN_DIR="{IRACE_TUNING_RUN_DIR}/train/test" "{IRACE_TUNING_PATH}/tools/run_cmds.py" \
+    --parallel "${IRACE_TUNING_NCPU:-1}" \
+    > "{IRACE_TUNING_RUN_DIR}/test/train/test-log.log"
+
+mkdir -p "${IRACE_TUNING_RUN_DIR}/test/test"
+"${IRACE_TUNING_PATH}`/tools/generate_validation_commands.py" \
+    --test-instances-dir "$Instances-test" \
+    --test-instances-file "$jobs/cplex_rcw/instances-test.txt" \
+    --target-runner "$${IRACE_TUNING_PATH}/target-runner.py" \
+    --n-seed 30 \
+    --log-file "$${IRACE_TUNING_RUN_DIR}/train/irace-log.log" \
+    | tee "{IRACE_TUNING_RUN_DIR}/test/test/test-commands.txt" \
+    | IRACE_TUNING_RUN_DIR="{IRACE_TUNING_RUN_DIR}/train/test" "{IRACE_TUNING_PATH}/tools/run_cmds.py" \
+    --parallel "${IRACE_TUNING_NCPU:-1}" \
+    > "{IRACE_TUNING_RUN_DIR}/test/test/test-log.log"
+
+
