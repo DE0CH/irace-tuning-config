@@ -3,10 +3,10 @@
 export IRACE_TUNING_PATH="${IRACE_TUNING_PATH:-../irace-tuning3}"
 
 "$IRACE_TUNING_PATH/tools/make_job_sh.py" \
-    --irace-tuning-run-dir '${IRACE_TUNING_RUN_DIR:-runs/cplex_rcw}' \
-    --train-instances-file jobs/cplex_rcw/instances.txt \
+    --irace-tuning-run-dir '${IRACE_TUNING_RUN_DIR:-runs/cplex-rcw}' \
+    --train-instances-file jobs/cplex-rcw/instances.txt \
     --test-instances-dir Instances-test \
-    --test-instances-file jobs/cplex_rcw/instances-test.txt \
+    --test-instances-file jobs/cplex-rcw/instances-test.txt \
     --target-runner '${IRACE_TUNING_PATH}/target-runner.py' \
     --log-file '${IRACE_TUNING_RUN_DIR}/train/irace.Rdata' \
     --parameter-file jobs/parameters.txt \
