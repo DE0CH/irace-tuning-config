@@ -1,0 +1,13 @@
+[surrogate_args]
+pyrfr_wrapper = "target_algorithms/surrogate/lpg_zenotravel/pyrfr_wrapper.lpg_zenotravel.par10.random.pkl"
+pyrfr_model = "target_algorithms/surrogate/lpg_zenotravel/pyrfr_model.lpg_zenotravel.par10.random.bin"
+config_space = "target_algorithms/surrogate/lpg_zenotravel/config_space.lpg_zenotravel.par10.random.pcs"
+inst_feat_dict = "target_algorithms/surrogate/lpg_zenotravel/inst_feat_dict.lpg_zenotravel.par10.random.json"
+
+[irace_args]
+parameter_file = "target_instances/surrogate/lpg_zenotravel/config_space.lpg_zenotravel.par10.random.irace.txt"
+train_instances_file = "target_instances/surrogate/lpg_zenotravel/train-1.txt"
+test_instances_file = "target_instances/surrogate/lpg_zenotravel/test-1.txt"
+digits = 10
+max_time = "172800"
+bound_max = "300"

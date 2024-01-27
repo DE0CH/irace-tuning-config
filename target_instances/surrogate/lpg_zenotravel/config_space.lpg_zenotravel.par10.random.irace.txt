@@ -1,0 +1,67 @@
+avoid_best_action_cycles "--avoid_best_action_cycles " c ('0', '1', '2') | TRUE
+bestfirst "--bestfirst " c ('0', '1', '2') | TRUE
+choose_min_numA_fact "--choose_min_numA_fact " c ('0', '1') | TRUE
+cri_insertion_add_mutex "--cri_insertion_add_mutex " c ('0', '1') | TRUE
+cri_intermediate_levels "--cri_intermediate_levels " c ('0', '1', '2') | TRUE
+cri_update_iterations "--cri_update_iterations " i (0, 100) | TRUE
+criprecond "--criprecond " c ('4', '5', '6') | TRUE
+donot_try_suspected_actions "--donot_try_suspected_actions " c ('0', '1') | TRUE
+evaluate_mutex_for_action_remotion "--evaluate_mutex_for_action_remotion " c ('0', '1') | TRUE
+evaluate_threated_supported_preconds_of_neighb_action "--evaluate_threated_supported_preconds_of_neighb_action " c ('0', '1', '2') | TRUE
+evaluation_function "--evaluation_function " c ('0', '1', '2') | TRUE
+extended_effects_evaluation "--extended_effects_evaluation " c ('0', '1') | TRUE
+extended_unsupported_goals "--extended_unsupported_goals " c ('0', '1') | TRUE
+fast_best_action_evaluation "--fast_best_action_evaluation " c ('0', '1') | TRUE
+h "--h " c ('1', '2', '3', '4', '5', '6') | TRUE
+improve_reachability "--improve_reachability " c ('0', '1') | TRUE
+inc_re "--inc_re " r (1.0000, 2.0000) | TRUE
+initializeichoice "--initializeichoice " c ('0', '1') | TRUE
+inst_duplicate_param "--inst_duplicate_param " c ('0', '1') | TRUE
+inst_with_contraddicting_objects "--inst_with_contraddicting_objects " c ('0', '1') | TRUE
+maxnoise "--maxnoise " i (0, 100) | TRUE
+mutex_and_additive_effects "--mutex_and_additive_effects " c ('0', '1') | TRUE
+no_insert_threated_act_in_neighb "--no_insert_threated_act_in_neighb " c ('0', '1') | TRUE
+no_mutex_with_additive_effects "--no_mutex_with_additive_effects " c ('0', '1') | TRUE
+no_pruning "--no_pruning " c ('0', '1') | TRUE
+noise "--noise " r (0.0000, 1.0000) | TRUE
+nonuniform_random "--nonuniform_random " c ('0', '1') | TRUE
+not_extended_unsupported_facts "--not_extended_unsupported_facts " c ('0', '1') | TRUE
+not_supported_preconds_evaluation "--not_supported_preconds_evaluation " c ('0', '1') | TRUE
+numtry "--numtry " i (100, 1000) | TRUE
+relaxed_examination "--relaxed_examination " c ('0', '1') | TRUE
+relaxed_neighborhood_evaluation "--relaxed_neighborhood_evaluation " c ('0', '1') | TRUE
+remove_act_next_step "--remove_act_next_step " c ('0', '1') | TRUE
+reset_extended_unsupported_facts "--reset_extended_unsupported_facts " c ('0', '1', '2', '3') | TRUE
+ri_list "--ri_list " c ('0', '1') | TRUE
+static_noise "--static_noise " c ('0', '1') | TRUE
+stop_remove_act "--stop_remove_act " c ('0', '1') | TRUE
+triomemory "--triomemory " c ('0', '1', '2') | TRUE
+twalkplan "--twalkplan " c ('0', '1') | TRUE
+verifyAf "--verifyAf " c ('0', '1') | TRUE
+verifyinit "--verifyinit " c ('0', '1') | TRUE
+vicinato "--vicinato " c ('1', '2', '3', '4') | TRUE
+walkplan "--walkplan " c ('0', '1') | TRUE
+weight_mutex_in_relaxed_plan "--weight_mutex_in_relaxed_plan " r (0.0000, 2.0000) | TRUE
+zero_num_A "--zero_num_A " c ('0', '1') | TRUE
+dynoiseTabLen "--dynoiseTabLen " r (1.0000, 5.0000) | (static_noise=='0')
+dynoisecoefnum "--dynoisecoefnum " r (1.0000, 5.0000) | (static_noise=='0')
+hpar_cut_neighb "--hpar_cut_neighb " c ('1', '2', '3', '4', '5', '6') | (vicinato=='2')
+ichoice "--ichoice " c ('1', '2', '3', '4', '5', '21', '22', '23', '24', '25', '26', '100') | (initializeichoice=='1')
+lagrange "--lagrange " c ('0', '1') | (h=='6')
+lpar_cut_neighb "--lpar_cut_neighb " c ('1', '2', '3', '4', '5') | (vicinato=='3')
+ncut "--ncut " i (50, 150) | (vicinato=='1')
+no_cut "--no_cut " c ('0', '1') | (vicinato=='4')
+noise_incr "--noise_incr " r (1.0000, 2.0000) | (static_noise=='0')
+numrestart "--numrestart " c ('1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20') | (bestfirst%in%c('0', '1'))
+tabu_act "--tabu_act " c ('0', '1') | ((twalkplan=='0')&(walkplan=='0'))
+tabu_fct "--tabu_fct " c ('0', '1') | ((twalkplan=='0')&(walkplan=='0'))
+tabu_length "--tabu_length " i (1, 20) | ((twalkplan=='0')&(walkplan=='0'))
+k1 "--k1 " r (0.0000, 2.0000) | (ichoice=='100')
+k2 "--k2 " r (0.0000, 2.0000) | (ichoice=='100')
+k3 "--k3 " r (0.0000, 2.0000) | (ichoice=='100')
+k4 "--k4 " r (0.0000, 2.0000) | (ichoice=='100')
+lm_decrme "--lm_decrme " r (0.0000, 0.0000) | (lagrange=='1')
+lm_decrprec "--lm_decrprec " r (0.0000, 0.0000) | (lagrange=='1')
+lm_incrme "--lm_incrme " r (0.0001, 0.0050) | (lagrange=='1')
+lm_incrprec "--lm_incrprec " r (0.0001, 0.0050) | (lagrange=='1')
+lm_multilevel "--lm_multilevel " c ('0', '1') | (lagrange=='1')
