@@ -14,7 +14,7 @@ extended_unsupported_goals "--extended_unsupported_goals " c ('0', '1') | TRUE
 fast_best_action_evaluation "--fast_best_action_evaluation " c ('0', '1') | TRUE
 h "--h " c ('1', '2', '3', '4', '5', '6') | TRUE
 improve_reachability "--improve_reachability " c ('0', '1') | TRUE
-inc_re "--inc_re " r (1.0000, 2.0000) | TRUE
+inc_re "--inc_re " r (1.0000000000, 2.0000000000) | TRUE
 initializeichoice "--initializeichoice " c ('0', '1') | TRUE
 inst_duplicate_param "--inst_duplicate_param " c ('0', '1') | TRUE
 inst_with_contraddicting_objects "--inst_with_contraddicting_objects " c ('0', '1') | TRUE
@@ -23,7 +23,7 @@ mutex_and_additive_effects "--mutex_and_additive_effects " c ('0', '1') | TRUE
 no_insert_threated_act_in_neighb "--no_insert_threated_act_in_neighb " c ('0', '1') | TRUE
 no_mutex_with_additive_effects "--no_mutex_with_additive_effects " c ('0', '1') | TRUE
 no_pruning "--no_pruning " c ('0', '1') | TRUE
-noise "--noise " r (0.0000, 1.0000) | TRUE
+noise "--noise " r (0.0000000000, 1.0000000000) | TRUE
 nonuniform_random "--nonuniform_random " c ('0', '1') | TRUE
 not_extended_unsupported_facts "--not_extended_unsupported_facts " c ('0', '1') | TRUE
 not_supported_preconds_evaluation "--not_supported_preconds_evaluation " c ('0', '1') | TRUE
@@ -41,27 +41,27 @@ verifyAf "--verifyAf " c ('0', '1') | TRUE
 verifyinit "--verifyinit " c ('0', '1') | TRUE
 vicinato "--vicinato " c ('1', '2', '3', '4') | TRUE
 walkplan "--walkplan " c ('0', '1') | TRUE
-weight_mutex_in_relaxed_plan "--weight_mutex_in_relaxed_plan " r (0.0000, 2.0000) | TRUE
+weight_mutex_in_relaxed_plan "--weight_mutex_in_relaxed_plan " r (0.0000000000, 2.0000000000) | TRUE
 zero_num_A "--zero_num_A " c ('0', '1') | TRUE
-dynoiseTabLen "--dynoiseTabLen " r (1.0000, 5.0000) | (static_noise=='0')
-dynoisecoefnum "--dynoisecoefnum " r (1.0000, 5.0000) | (static_noise=='0')
+dynoiseTabLen "--dynoiseTabLen " r (1.0000000000, 5.0000000000) | (static_noise=='0')
+dynoisecoefnum "--dynoisecoefnum " r (1.0000000000, 5.0000000000) | (static_noise=='0')
 hpar_cut_neighb "--hpar_cut_neighb " c ('1', '2', '3', '4', '5', '6') | (vicinato=='2')
 ichoice "--ichoice " c ('1', '2', '3', '4', '5', '21', '22', '23', '24', '25', '26', '100') | (initializeichoice=='1')
 lagrange "--lagrange " c ('0', '1') | (h=='6')
 lpar_cut_neighb "--lpar_cut_neighb " c ('1', '2', '3', '4', '5') | (vicinato=='3')
 ncut "--ncut " i (50, 150) | (vicinato=='1')
 no_cut "--no_cut " c ('0', '1') | (vicinato=='4')
-noise_incr "--noise_incr " r (1.0000, 2.0000) | (static_noise=='0')
+noise_incr "--noise_incr " r (1.0000000000, 2.0000000000) | (static_noise=='0')
 numrestart "--numrestart " c ('1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20') | (bestfirst%in%c('0', '1'))
 tabu_act "--tabu_act " c ('0', '1') | ((twalkplan=='0')&(walkplan=='0'))
 tabu_fct "--tabu_fct " c ('0', '1') | ((twalkplan=='0')&(walkplan=='0'))
 tabu_length "--tabu_length " i (1, 20) | ((twalkplan=='0')&(walkplan=='0'))
-k1 "--k1 " r (0.0000, 2.0000) | (ichoice=='100')
-k2 "--k2 " r (0.0000, 2.0000) | (ichoice=='100')
-k3 "--k3 " r (0.0000, 2.0000) | (ichoice=='100')
-k4 "--k4 " r (0.0000, 2.0000) | (ichoice=='100')
-lm_decrme "--lm_decrme " r (0.0000, 0.0000) | (lagrange=='1')
-lm_decrprec "--lm_decrprec " r (0.0000, 0.0000) | (lagrange=='1')
-lm_incrme "--lm_incrme " r (0.0001, 0.0050) | (lagrange=='1')
-lm_incrprec "--lm_incrprec " r (0.0001, 0.0050) | (lagrange=='1')
+k1 "--k1 " r (0.0000000000, 2.0000000000) | (ichoice=='100')
+k2 "--k2 " r (0.0000000000, 2.0000000000) | (ichoice=='100')
+k3 "--k3 " r (0.0000000000, 2.0000000000) | (ichoice=='100')
+k4 "--k4 " r (0.0000000000, 2.0000000000) | (ichoice=='100')
+lm_decrme "--lm_decrme " r (0.0000001000, 0.0000010000) | (lagrange=='1')
+lm_decrprec "--lm_decrprec " r (0.0000001000, 0.0000010000) | (lagrange=='1')
+lm_incrme "--lm_incrme " r (0.0001000000, 0.0050000000) | (lagrange=='1')
+lm_incrprec "--lm_incrprec " r (0.0001000000, 0.0050000000) | (lagrange=='1')
 lm_multilevel "--lm_multilevel " c ('0', '1') | (lagrange=='1')
