@@ -1,7 +1,7 @@
 barrier_algorithm "--barrier_algorithm " c ('0', '1', '2', '3') | TRUE
 barrier_crossover "--barrier_crossover " c ('-1', '0', '1', '2') | TRUE
 barrier_limits_corrections "--barrier_limits_corrections " c ('-1', '0', '1', '4', '16', '64') | TRUE
-barrier_limits_growth "--barrier_limits_growth " r,log (1000000.0000, 100000000000000.0000) | TRUE
+barrier_limits_growth "--barrier_limits_growth " r,log (1000000.00000000, 100000000000000.00000000) | TRUE
 barrier_ordering "--barrier_ordering " c ('0', '1', '2', '3') | TRUE
 barrier_startalg "--barrier_startalg " c ('1', '2', '3', '4') | TRUE
 emphasis_memory "--emphasis_memory " c ('no') | TRUE
@@ -22,7 +22,7 @@ mip_cuts_pathcut "--mip_cuts_pathcut " c ('-1', '0', '1', '2') | TRUE
 mip_cuts_zerohalfcut "--mip_cuts_zerohalfcut " c ('-1', '0', '1', '2') | TRUE
 mip_limits_aggforcut "--mip_limits_aggforcut " i (0, 10) | TRUE
 mip_limits_cutpasses "--mip_limits_cutpasses " c ('-1', '0', '1', '4', '16', '64') | TRUE
-mip_limits_cutsfactor "--mip_limits_cutsfactor " r,log (1.0000, 16.0000) | TRUE
+mip_limits_cutsfactor "--mip_limits_cutsfactor " r,log (1.00000000, 16.00000000) | TRUE
 mip_limits_gomorycand "--mip_limits_gomorycand " i,log (50, 800) | TRUE
 mip_limits_gomorypass "--mip_limits_gomorypass " c ('0', '1', '4', '16', '64') | TRUE
 mip_limits_submipnodelim "--mip_limits_submipnodelim " i,log (125, 2000) | TRUE
@@ -67,8 +67,8 @@ simplex_perturbation_switch "--simplex_perturbation_switch " c ('no', 'yes') | T
 simplex_pgradient "--simplex_pgradient " c ('-1', '0', '1', '2', '3', '4') | TRUE
 simplex_pricing "--simplex_pricing " c ('0', '1', '4', '16', '64') | TRUE
 simplex_refactor "--simplex_refactor " c ('0', '4', '16', '64', '256') | TRUE
-simplex_tolerances_markowitz "--simplex_tolerances_markowitz " r,log (0.0001, 0.5000) | TRUE
+simplex_tolerances_markowitz "--simplex_tolerances_markowitz " r,log (0.00010000, 0.50000000) | TRUE
 mip_limits_strongcand "--mip_limits_strongcand " i,log (2, 40) | (mip_strategy_variableselect=='3')
 mip_limits_strongit "--mip_limits_strongit " c ('0', '1', '4', '16', '64') | (mip_strategy_variableselect=='3')
 mip_strategy_order "--mip_strategy_order " c ('yes', 'no') | (mip_ordertype%in%c('1', '2', '3'))
-perturbation_constant "--perturbation_constant " r,log (0.0000, 0.0001) | (simplex_perturbation_switch=='yes')
+perturbation_constant "--perturbation_constant " r,log (0.00000001, 0.00010000) | (simplex_perturbation_switch=='yes')
