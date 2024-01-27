@@ -2,3 +2,4 @@ runs
 target_algorithms
 irace.Rdata
 venv
+.DS_Store

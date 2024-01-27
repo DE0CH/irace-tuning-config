@@ -1,0 +1,322 @@
+actavgmax "--actavgmax " i (0, 150) | TRUE
+actdblarithlim "--actdblarithlim " i (0, 15) | TRUE
+actgeomlim "--actgeomlim " i (0, 15) | TRUE
+actgsdul "--actgsdul " i (0, 150) | TRUE
+acts "--acts " c ('0', '1', '2') | TRUE
+actstdmax "--actstdmax " i (0, 150) | TRUE
+actstdmin "--actstdmin " i (0, 150) | TRUE
+actvlim "--actvlim " i (0, 2147483647) | TRUE
+agile "--agile " c ('0', '1', '2') | TRUE
+agilelim "--agilelim " i (0, 100) | TRUE
+agilesinint "--agilesinint " i,log (1, 2147483647) | TRUE
+bate "--bate " c ('0', '1') | TRUE
+batewait "--batewait " c ('0', '1', '2') | TRUE
+bca "--bca " c ('0', '1', '2') | TRUE
+bcamaxeff "--bcamaxeff " i (0, 2147483647) | TRUE
+bcaminuse "--bcaminuse " i (0, 2147483647) | TRUE
+bcawait "--bcawait " c ('0', '1', '2') | TRUE
+bias "--bias " c ('-1', '0', '1', '2') | TRUE
+binlocsdel "--binlocsdel " i (0, 1000) | TRUE
+binsimpdel "--binsimpdel " i (0, 1000) | TRUE
+bkwdscale "--bkwdscale " i,log (1, 1000) | TRUE
+blkboost "--blkboost " i,log (1, 10000) | TRUE
+blkboostvlim "--blkboostvlim " i (0, 2147483647) | TRUE
+blkclslim "--blkclslim " i,log (3, 2147483647) | TRUE
+blklarge "--blklarge " c ('0', '1') | TRUE
+blkmaxeff "--blkmaxeff " i (-1, 2147483647) | TRUE
+blkmineff "--blkmineff " i (0, 2147483647) | TRUE
+blkocclim "--blkocclim " i,log (3, 2147483647) | TRUE
+blkocclim1 "--blkocclim1 " i,log (1, 2147483647) | TRUE
+blkocclim2 "--blkocclim2 " i,log (2, 2147483647) | TRUE
+blkreleff "--blkreleff " i (0, 1000) | TRUE
+blkrtc "--blkrtc " c ('0', '1') | TRUE
+blksched2b2 "--blksched2b2 " c ('0', '1') | TRUE
+blkschedmin "--blkschedmin " c ('0', '1') | TRUE
+blkschedprod "--blkschedprod " c ('0', '1') | TRUE
+blkschedpure "--blkschedpure " c ('0', '1') | TRUE
+blkschedsum "--blkschedsum " c ('0', '1') | TRUE
+blksmall "--blksmall " c ('0', '1') | TRUE
+blksuccesslim "--blksuccesslim " i (0, 2147483647) | TRUE
+blksuccessrat "--blksuccessrat " i,log (1, 2147483647) | TRUE
+block "--block " c ('0', '1') | TRUE
+blockwait "--blockwait " c ('0', '1') | TRUE
+boost "--boost " c ('0', '1') | TRUE
+bumpbcplits "--bumpbcplits " c ('0', '1') | TRUE
+bumpclslits "--bumpclslits " c ('0', '1') | TRUE
+bumpseenaftermin "--bumpseenaftermin " c ('0', '1') | TRUE
+bumpseenbeforemin "--bumpseenbeforemin " c ('0', '1') | TRUE
+bumpseenlits "--bumpseenlits " c ('0', '1') | TRUE
+bumpseenminsize "--bumpseenminsize " i (0, 2147483647) | TRUE
+bva "--bva " c ('0', '1') | TRUE
+card "--card " c ('0', '1') | TRUE
+cardcut "--cardcut " c ('0', '1', '2') | TRUE
+cardexpam1 "--cardexpam1 " i,log (2, 2147483647) | TRUE
+cardglue "--cardglue " i (-1, 15) | TRUE
+cardignused "--cardignused " c ('0', '1') | TRUE
+cardmaxeff "--cardmaxeff " i (-1, 2147483647) | TRUE
+cardmaxlen "--cardmaxlen " i (0, 2147483647) | TRUE
+cardmineff "--cardmineff " i (0, 2147483647) | TRUE
+cardminlen "--cardminlen " i (0, 2147483647) | TRUE
+cardocclim1 "--cardocclim1 " i (0, 2147483647) | TRUE
+cardocclim2 "--cardocclim2 " i (0, 2147483647) | TRUE
+cardreleff "--cardreleff " i (0, 10000) | TRUE
+cardreschedint "--cardreschedint " i,log (1, 2147483647) | TRUE
+carduse "--carduse " c ('0', '1', '2', '3') | TRUE
+cardwait "--cardwait " c ('0', '1', '2') | TRUE
+cce "--cce " c ('0', '1', '2', '3') | TRUE
+cce2wait "--cce2wait " i (0, 2147483647) | TRUE
+cce3wait "--cce3wait " i (0, 2147483647) | TRUE
+cceboost "--cceboost " i,log (1, 1000) | TRUE
+cceboostvlim "--cceboostvlim " i (0, 2147483647) | TRUE
+ccemaxeff "--ccemaxeff " i (-1, 2147483647) | TRUE
+ccemineff "--ccemineff " i (0, 2147483647) | TRUE
+cceonlyifstuck "--cceonlyifstuck " c ('0', '1') | TRUE
+ccereleff "--ccereleff " i (0, 1000) | TRUE
+ccertc "--ccertc " c ('0', '1') | TRUE
+ccesuccesslim "--ccesuccesslim " i (0, 2147483647) | TRUE
+ccesuccessrat "--ccesuccessrat " i,log (1, 2147483647) | TRUE
+ccewait "--ccewait " c ('0', '1', '2') | TRUE
+cgrclsr "--cgrclsr " c ('0', '1') | TRUE
+cgrclsrwait "--cgrclsrwait " c ('0', '1', '2') | TRUE
+cgreleff "--cgreleff " i (0, 10000) | TRUE
+cgrextand "--cgrextand " c ('0', '1') | TRUE
+cgrexteq "--cgrexteq " c ('0', '1') | TRUE
+cgrextite "--cgrextite " c ('0', '1') | TRUE
+cgrextunits "--cgrextunits " c ('0', '1') | TRUE
+cgrextxor "--cgrextxor " c ('0', '1') | TRUE
+cgrmaxeff "--cgrmaxeff " i (-1, 2147483647) | TRUE
+cgrmaxority "--cgrmaxority " i (2, 30) | TRUE
+cgrmineff "--cgrmineff " i (0, 2147483647) | TRUE
+cintinc "--cintinc " i,log (10, 1000000) | TRUE
+cintincdiv "--cintincdiv " c ('0', '1', '2', '3') | TRUE
+cintmaxhard "--cintmaxhard " i (-1, 2147483647) | TRUE
+cintmaxsoft "--cintmaxsoft " i (-1, 2147483647) | TRUE
+cliff "--cliff " c ('0', '1') | TRUE
+cliffmaxeff "--cliffmaxeff " i (-1, 2147483647) | TRUE
+cliffmineff "--cliffmineff " i (0, 2147483647) | TRUE
+cliffreleff "--cliffreleff " i (0, 10000) | TRUE
+cliffwait "--cliffwait " c ('0', '1', '2') | TRUE
+clim "--clim " i (-1, 2147483647) | TRUE
+compact "--compact " c ('0', '1', '2') | TRUE
+deco "--deco " c ('0', '1', '2') | TRUE
+decolim "--decolim " i (0, 2147483647) | TRUE
+decompose "--decompose " c ('0', '1') | TRUE
+defragfree "--defragfree " i,log (10, 1000) | TRUE
+defragint "--defragint " i,log (100, 2147483647) | TRUE
+delmax "--delmax " i (0, 10) | TRUE
+dlim "--dlim " i (-1, 2147483647) | TRUE
+elim "--elim " c ('0', '1') | TRUE
+elmaxeff "--elmaxeff " i (-1, 2147483647) | TRUE
+elmblk "--elmblk " c ('0', '1') | TRUE
+elmblkwait "--elmblkwait " c ('0', '1') | TRUE
+elmboost "--elmboost " i,log (1, 1000) | TRUE
+elmclslim "--elmclslim " i,log (3, 2147483647) | TRUE
+elmfull "--elmfull " c ('0', '1') | TRUE
+elmineff "--elmineff " i (0, 2147483647) | TRUE
+elmlitslim "--elmlitslim " i (0, 2147483647) | TRUE
+elmocclim "--elmocclim " i,log (3, 2147483647) | TRUE
+elmocclim1 "--elmocclim1 " i,log (1, 2147483647) | TRUE
+elmocclim2 "--elmocclim2 " i,log (2, 2147483647) | TRUE
+elmreleff "--elmreleff " i (0, 10000) | TRUE
+elmroundlim "--elmroundlim " i,log (1, 2147483647) | TRUE
+elmrtc "--elmrtc " c ('0', '1') | TRUE
+elmsched2b2 "--elmsched2b2 " c ('0', '1') | TRUE
+elmschediff "--elmschediff " c ('0', '1') | TRUE
+elmschedmin "--elmschedmin " c ('0', '1') | TRUE
+elmschedprod "--elmschedprod " c ('0', '1') | TRUE
+elmschedpure "--elmschedpure " c ('0', '1') | TRUE
+elmschedsum "--elmschedsum " c ('0', '1') | TRUE
+elmsuccesslim "--elmsuccesslim " i (0, 2147483647) | TRUE
+elmsuccessrat "--elmsuccessrat " i,log (1, 2147483647) | TRUE
+factmax "--factmax " i,log (1, 2147483647) | TRUE
+factor "--factor " c ('0', '1', '2', '3') | TRUE
+flipdur "--flipdur " i,log (1, 2147483647) | TRUE
+flipint "--flipint " i (0, 2147483647) | TRUE
+flipldmod "--flipldmod " i (0, 30) | TRUE
+fliplevels "--fliplevels " i (0, 30) | TRUE
+flipping "--flipping " c ('0', '1') | TRUE
+fliptop "--fliptop " c ('0', '1') | TRUE
+flipvlim "--flipvlim " i (0, 2147483647) | TRUE
+force "--force " i (0, 2147483647) | TRUE
+gauss "--gauss " c ('0', '1') | TRUE
+gaussexptrn "--gaussexptrn " c ('0', '1') | TRUE
+gaussextrall "--gaussextrall " c ('0', '1') | TRUE
+gaussmaxeff "--gaussmaxeff " i (-1, 2147483647) | TRUE
+gaussmaxor "--gaussmaxor " i (2, 64) | TRUE
+gaussmineff "--gaussmineff " i (0, 2147483647) | TRUE
+gaussreleff "--gaussreleff " i (0, 10000) | TRUE
+gausswait "--gausswait " c ('0', '1', '2') | TRUE
+gluekeep "--gluekeep " i (0, 2147483647) | TRUE
+gluescale "--gluescale " c ('1', '2', '3', '4') | TRUE
+import "--import " c ('0', '1') | TRUE
+incredcint "--incredcint " i,log (1, 2147483647) | TRUE
+incredconfslim "--incredconfslim " i (0, 100) | TRUE
+incsavevisits "--incsavevisits " c ('0', '1') | TRUE
+inprocessing "--inprocessing " c ('0', '1') | TRUE
+irrlim "--irrlim " c ('0', '1') | TRUE
+itlocsdel "--itlocsdel " i (0, 100000) | TRUE
+itsimpdel "--itsimpdel " i (0, 100000) | TRUE
+jwhred "--jwhred " c ('0', '1') | TRUE
+keepmaxglue "--keepmaxglue " c ('0', '1') | TRUE
+lftmaxeff "--lftmaxeff " i (-1, 2147483647) | TRUE
+lftmineff "--lftmineff " i (0, 2147483647) | TRUE
+lftreleff "--lftreleff " i (0, 10000) | TRUE
+lftroundlim "--lftroundlim " i (0, 2147483647) | TRUE
+lhbr "--lhbr " c ('0', '1') | TRUE
+lift "--lift " c ('0', '1') | TRUE
+liftlrg "--liftlrg " i (0, 2147483647) | TRUE
+liftwait "--liftwait " c ('0', '1', '2') | TRUE
+lkhd "--lkhd " c ('-1', '0', '1', '2', '3') | TRUE
+lkhdmisifelmrtc "--lkhdmisifelmrtc " c ('0', '1') | TRUE
+locs "--locs " i (-1, 2147483647) | TRUE
+locsboost "--locsboost " i (0, 100) | TRUE
+locscint "--locscint " i,log (1, 2147483647) | TRUE
+locsclim "--locsclim " i (0, 8388607) | TRUE
+locsdec "--locsdec " c ('0', '1', '2') | TRUE
+locset "--locset " c ('0', '1', '2') | TRUE
+locsexport "--locsexport " c ('0', '1') | TRUE
+locsmaxeff "--locsmaxeff " i (0, 2147483647) | TRUE
+locsmineff "--locsmineff " i (0, 2147483647) | TRUE
+locsred "--locsred " c ('0', '1', '2', '3', '4') | TRUE
+locsreleff "--locsreleff " i (0, 100) | TRUE
+locsrtc "--locsrtc " c ('0', '1') | TRUE
+locsvared "--locsvared " i (0, 1000) | TRUE
+locswait "--locswait " c ('0', '1', '2') | TRUE
+maxglue "--maxglue " i (0, 2147483647) | TRUE
+maxscorexp "--maxscorexp " i,log (7, 1073741824) | TRUE
+mega "--mega " c ('0', '1') | TRUE
+megaint "--megaint " i,log (1, 2147483647) | TRUE
+megawait "--megawait " c ('0', '1', '2') | TRUE
+memlim "--memlim " i (-1, 2147483647) | TRUE
+minimize "--minimize " c ('0', '1', '2') | TRUE
+minlocalgluelim "--minlocalgluelim " i (0, 2147483647) | TRUE
+minrecgluelim "--minrecgluelim " i (0, 2147483647) | TRUE
+mocint "--mocint " i,log (1, 2147483647) | TRUE
+move "--move " c ('0', '1', '2') | TRUE
+otfs "--otfs " c ('0', '1') | TRUE
+otfsbump "--otfsbump " c ('0', '1', '2') | TRUE
+otfsconf "--otfsconf " c ('0', '1') | TRUE
+penmax "--penmax " i (0, 16) | TRUE
+phase "--phase " c ('-1', '0', '1') | TRUE
+phaseflip "--phaseflip " c ('0', '1') | TRUE
+phasegluebit "--phasegluebit " i (0, 2147483647) | TRUE
+phaseneginit "--phaseneginit " i (0, 2147483647) | TRUE
+plain "--plain " c ('0', '1') | TRUE
+plim "--plim " i (-1, 2147483647) | TRUE
+prbasic "--prbasic " c ('0', '1', '2') | TRUE
+prbasicmaxeff "--prbasicmaxeff " i (-1, 2147483647) | TRUE
+prbasicmineff "--prbasicmineff " i (0, 2147483647) | TRUE
+prbasicreleff "--prbasicreleff " i (0, 10000) | TRUE
+prbasicroundlim "--prbasicroundlim " i,log (1, 2147483647) | TRUE
+prbasicrtc "--prbasicrtc " c ('0', '1') | TRUE
+prbrtc "--prbrtc " c ('0', '1') | TRUE
+prbsimple "--prbsimple " c ('0', '1', '2', '3') | TRUE
+prbsimpleboost "--prbsimpleboost " i,log (1, 1000) | TRUE
+prbsimpleliftdepth "--prbsimpleliftdepth " c ('1', '2', '3', '4') | TRUE
+prbsimplemaxeff "--prbsimplemaxeff " i (-1, 2147483647) | TRUE
+prbsimplemineff "--prbsimplemineff " i (0, 2147483647) | TRUE
+prbsimplereleff "--prbsimplereleff " i (0, 10000) | TRUE
+prbsimplertc "--prbsimplertc " c ('0', '1') | TRUE
+probe "--probe " c ('0', '1') | TRUE
+psm "--psm " c ('0', '1', '2', '3') | TRUE
+pure "--pure " c ('0', '1') | TRUE
+randec "--randec " c ('0', '1') | TRUE
+randecflipint "--randecflipint " i (0, 2147483647) | TRUE
+randecint "--randecint " i,log (2, 1073741823) | TRUE
+rdp "--rdp " c ('0', '1', '2', '3') | TRUE
+rdpclslim "--rdpclslim " i (0, 2147483647) | TRUE
+rdplim "--rdplim " i (0, 200) | TRUE
+rdpmaxeff "--rdpmaxeff " i (-1, 2147483647) | TRUE
+rdpmineff "--rdpmineff " i (0, 2147483647) | TRUE
+rdpmodelm "--rdpmodelm " c ('0', '1') | TRUE
+rdpreleff "--rdpreleff " i (0, 10000) | TRUE
+rdpwait "--rdpwait " c ('0', '1', '2') | TRUE
+redfixed "--redfixed " c ('0', '1') | TRUE
+redinoutinc "--redinoutinc " i,log (1, 1000) | TRUE
+redlbound "--redlbound " c ('0', '1') | TRUE
+redlexpfac "--redlexpfac " i (0, 1000) | TRUE
+redlinc "--redlinc " i,log (1, 10000000) | TRUE
+redlinit "--redlinit " i,log (1, 100000000) | TRUE
+redlmaxabs "--redlmaxabs " i,log (10, 1073741823) | TRUE
+redlmaxinc "--redlmaxinc " i,log (1, 100000) | TRUE
+redlmaxrel "--redlmaxrel " i,log (10, 10000) | TRUE
+redlminabs "--redlminabs " i,log (10, 1000000) | TRUE
+redlmininc "--redlmininc " i,log (1, 100000) | TRUE
+redlminrel "--redlminrel " i,log (10, 1000) | TRUE
+redloutinc "--redloutinc " i (0, 1000000) | TRUE
+redoutclim "--redoutclim " i (0, 2147483647) | TRUE
+redoutvlim "--redoutvlim " i (0, 2147483647) | TRUE
+reduce "--reduce " c ('0', '1', '2', '3', '4') | TRUE
+rephase "--rephase " c ('0', '1', '2') | TRUE
+rephaseinc "--rephaseinc " i,log (1, 2147483647) | TRUE
+restart "--restart " c ('0', '1', '2', '3') | TRUE
+restartinit "--restartinit " i (0, 2147483647) | TRUE
+restartint "--restartint " i,log (1, 2147483647) | TRUE
+restartintscale "--restartintscale " c ('-1', '0', '1') | TRUE
+reusetrail "--reusetrail " c ('0', '1') | TRUE
+rmincpen "--rmincpen " i (0, 32) | TRUE
+rstinoutinc "--rstinoutinc " i,log (1, 1000) | TRUE
+saturating "--saturating " i (0, 1000) | TRUE
+scincinc "--scincinc " i (0, 10000) | TRUE
+score "--score " c ('0', '1', '2', '3', '4', '5', '6') | TRUE
+simpdelay "--simpdelay " i (0, 2147483647) | TRUE
+simpen "--simpen " i (0, 24) | TRUE
+simpidiv "--simpidiv " i (1, 100) | TRUE
+simpinterdelay "--simpinterdelay " i (0, 2147483647) | TRUE
+simpiscale "--simpiscale " i,log (1, 10000) | TRUE
+simplify "--simplify " c ('0', '1', '2') | TRUE
+simprtc "--simprtc " i (1, 100) | TRUE
+simpvarchg "--simpvarchg " i,log (1, 1000) | TRUE
+simpvarlim "--simpvarlim " i (0, 2147483647) | TRUE
+sizemaxpen "--sizemaxpen " i (0, 20) | TRUE
+sizepen "--sizepen " i,log (1, 2147483647) | TRUE
+smallirr "--smallirr " i (0, 100) | TRUE
+smallve "--smallve " c ('0', '1') | TRUE
+smallvevars "--smallvevars " c ('4', '5', '6', '7', '8', '9', '10') | TRUE
+smallvewait "--smallvewait " c ('0', '1') | TRUE
+sortlits "--sortlits " c ('0', '1') | TRUE
+subl "--subl " i (0, 10000) | TRUE
+synclsall "--synclsall " c ('0', '1') | TRUE
+synclsglue "--synclsglue " i (0, 2147483647) | TRUE
+synclsint "--synclsint " i (0, 1000) | TRUE
+synclslen "--synclslen " i (0, 2147483647) | TRUE
+syncunint "--syncunint " i (0, 1000000) | TRUE
+tabr "--tabr " c ('0', '1', '2', '3', '4') | TRUE
+tabrcfactor "--tabrcfactor " i,log (1, 2147483647) | TRUE
+tabrkeep "--tabrkeep " c ('1', '2', '3', '4') | TRUE
+tabrvfactor "--tabrvfactor " i,log (1, 2147483647) | TRUE
+termint "--termint " i (0, 1000000) | TRUE
+ternres "--ternres " c ('0', '1') | TRUE
+ternresboost "--ternresboost " i (1, 100) | TRUE
+ternresrtc "--ternresrtc " c ('0', '1') | TRUE
+ternreswait "--ternreswait " c ('0', '1', '2') | TRUE
+transred "--transred " c ('0', '1') | TRUE
+transredwait "--transredwait " c ('0', '1', '2') | TRUE
+trdmaxeff "--trdmaxeff " i (-1, 2147483647) | TRUE
+trdmineff "--trdmineff " i (0, 2147483647) | TRUE
+trdreleff "--trdreleff " i (0, 10000) | TRUE
+treelook "--treelook " c ('0', '1', '2') | TRUE
+treelookboost "--treelookboost " i,log (1, 100000) | TRUE
+treelookfull "--treelookfull " c ('0', '1') | TRUE
+treelooklrg "--treelooklrg " c ('0', '1') | TRUE
+treelookmaxeff "--treelookmaxeff " i (-1, 2147483647) | TRUE
+treelookmineff "--treelookmineff " i (0, 2147483647) | TRUE
+treelookreleff "--treelookreleff " i (0, 10000) | TRUE
+treelookrtc "--treelookrtc " c ('0', '1') | TRUE
+trep "--trep " c ('0', '1') | TRUE
+trepint "--trepint " i,log (1, 2147483647) | TRUE
+trnreleff "--trnreleff " i (0, 1000) | TRUE
+trnrmaxeff "--trnrmaxeff " i (-1, 2147483647) | TRUE
+trnrmineff "--trnrmineff " i (0, 2147483647) | TRUE
+unhdatrn "--unhdatrn " c ('0', '1', '2') | TRUE
+unhdextstamp "--unhdextstamp " c ('0', '1') | TRUE
+unhdhbr "--unhdhbr " c ('0', '1') | TRUE
+unhdlnpr "--unhdlnpr " i (0, 2147483647) | TRUE
+unhdmaxeff "--unhdmaxeff " i (-1, 2147483647) | TRUE
+unhdmineff "--unhdmineff " i (0, 2147483647) | TRUE
+unhdreleff "--unhdreleff " i (0, 10000) | TRUE
+unhdroundlim "--unhdroundlim " i (0, 100) | TRUE
+unhide "--unhide " c ('0', '1') | TRUE
+unhidewait "--unhidewait " c ('0', '1', '2') | TRUE
+wait "--wait " c ('0', '1') | TRUE
+waitmax "--waitmax " i (-1, 2147483647) | TRUE
