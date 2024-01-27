@@ -10,3 +10,6 @@ rm cplex_rcw.zip
 curl -OLJ https://www.automl.org/wp-content/uploads/2019/10/lingeling_circuitfuzz.zip
 unzip lingeling_circuitfuzz.zip
 rm lingeling_circuitfuzz.zip
+curl -OJL https://www.automl.org/wp-content/uploads/2019/10/lpg_zenotravel.zip
+unzip lpg_zenotravel.zip
+rm -rf lpg_zenotravel.zip
